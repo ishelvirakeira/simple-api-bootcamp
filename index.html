@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Book API</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Find Academic Books</h1>
+
+        <label for="authorSelect">Choose an author:</label><!--got these authors' names from the JSON data-->
+        <select id="authorsel">
+            <option value="">Select an author</option>
+            <option value="Glenn P.Lauzon">Glenn P.Lauzon</option>
+            <option value="Debbie Nathan">Debbie Nathan</option>
+            <option value="Michael Snedeker">Michael Snedeker</option>
+            <option value="Kip Lornell">Kip Lornell</option>
+            <option value="Keira V. Williams">Keira V. Williams</option>
+            <option value="Levi Heywood Memorial Library, Gardner, Mass">Levi Heywood Memorial Library, Gardner, Mass</option>
+            <option value="Steven Rosales">Steven Rosales</option>
+            <option value="Barry Hankins">Barry Hankins</option>
+            <option value="Thaddeus Holt">Thaddeus Holt</option>
+        </select>
+        <button type="button" name="button">Get Book</button>
+
+        <h2>Title</h2>
+        <p>Description: <div class="description"></div></p>
+        <div class="title"></div>
+        
+
+        <script type="text/javascript" src="main.js"></script>
+
+    </body>
+
+</html>
